@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 96%;
+}
+
+#map{
+    height: 100vh;
+}
+
+.popup{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.popup p{
+    margin: 0;
+    font-size: 1rem;
+}
+
+#city{
+    -moz-appearance: none;
+    position: absolute;
+    top: 12px;
+    left: 220px;
+    z-index: 2;
+    padding: 10px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    font-family: 'Arial';
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    
+}
